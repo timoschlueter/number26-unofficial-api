@@ -11,6 +11,31 @@
   
   `POST`
 
+* **Request Header**
+ 
+  `Host: api.tech26.de`
+
+  `Connection: keep-alive`
+
+  `Content-Length: 76`
+
+  `Accept: application/json, text/javascript, */*; q=0.01`
+
+  `Origin: https://my.number26.de`
+
+  `User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36`
+
+  `Authorization: Basic bXktdHJ1c3RlZC13ZHBDbGllbnQ6c2VjcmV0`
+
+  `Content-Type: application/x-www-form-urlencoded`
+
+  `Referer: https://my.number26.de/`
+
+  `Accept-Encoding: gzip, deflate`
+
+  `Accept-Language: de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4`
+
+
 * **Data Params**
 
   `grant_type = password`
