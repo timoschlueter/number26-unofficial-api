@@ -21,23 +21,16 @@
   
 
 * **Success Response:**
-  
-  <_What should the status code be on success and is there any returned data? This is useful when people need to to know what their callbacks should expect!_>
 
-  * **Code:** 200 <br />
-    **Content:** `{ id : 12 }`
- 
-* **Error Response:**
-
-  <_Most endpoints will have many ways they can fail. From unauthorized access, to wrongful parameters etc. All of those should be liste d here. It might seem repetitive, but it helps prevent assumptions from being made where they should be._>
-
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "Log in" }`
-
-  OR
-
-  * **Code:** 422 UNPROCESSABLE ENTRY <br />
-    **Content:** `{ error : "Email Invalid" }`
+  * **Code:** 200
+  * 
+    **Content:** `{
+  "access_token": "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0NTA4OTc1OTAsInVzZXJfbmFtZSI6Im1lQGV4YW1wbGUuY29tIiwiYXV0aG9yaXRpZXMiOlsiVVNFUiJdLCJqdGkiOiIxMjNhMTJiYy0xYWJjLTFhMTItMTJhYi0xMjNhMTJhMTJhYjEiLCJjbGllbnRfaWQiOiJteS10cnVzdGVkLXdkcENsaWVudCIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSIsInRydXN0Il19.KN7RvK7DW_yPcO-D6Oz6-cq5zBIaaGYVyApsUSqEyZ0",
+  "token_type": "bearer",
+  "expires_in": 1799,
+  "scope": "read write trust",
+  "jti": "123a12bc-1abc-1a12-12ab-123a12a12ab1"
+}`
 
 * **Sample Call:**
 
