@@ -56,11 +56,3 @@
   "scope": "read write trust",
   "jti": "123a12bc-1abc-1a12-12ab-123a12a12ab1"
 }`
-
-* **Sample Call:**
-
-  <_Just a sample call to your endpoint in a runnable format ($.ajax call or a curl request) - this makes life easier and more predictable._> 
-
-* **Notes:**
-
-  <_This is where all uncertainties, commentary, discussion etc. can go. I recommend timestamping and identifying oneself when leaving comments here._> 
