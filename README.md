@@ -1,3 +1,5 @@
+**Unofficial Number26 API Documentation - Work in progress**
+
 **Login**
 ----
   
